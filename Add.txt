@@ -1,0 +1,18 @@
+import "d_p1";
+
+Distance a = 5m;
+
+Distance b = 5 km;
+
+Distance c = a + b;
+
+Time s = 1h + 4h;
+
+Integer r = 14-2;
+
+Float x = 90.2;
+Float m = 5.2 + x;
+print m;
+print r;
+print s;
+print c;

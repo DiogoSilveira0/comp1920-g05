@@ -1,0 +1,12 @@
+import "d_p1";
+
+Distance a = 2km;
+
+Distance b = 4m;
+
+Boolean c = a == 2km;
+
+for Integer i=0, i < 4, i+1 {
+    print i;
+}
+;

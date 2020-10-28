@@ -1,0 +1,10 @@
+import "d_p1";
+
+Integer a = 5;
+Integer b = -a;
+
+Distance c = 5m -(1m);
+print c;
+
+Boolean e = true;
+print !e;

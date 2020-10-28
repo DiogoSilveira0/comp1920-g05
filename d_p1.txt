@@ -1,0 +1,13 @@
+Distance = float km;
+add m to Distance: km/1000;
+add cm to Distance: km/100000;
+
+Time = int h;
+add s to Time: h/3600;
+
+Speed = Distance/Time;
+
+Temperatura = float C;
+add F to Temperatura: 1.8*C+32;
+// codificar sempre à custa de uma outra unidade, só uma
+// expressão é um polinomio onde x é a unidade - classe polinomio tem de ter um método que resolve - u

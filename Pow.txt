@@ -1,0 +1,12 @@
+import "d_p3";
+Distance a = 7 m;
+Boolean d = true;
+
+Float b = 3.0;
+
+Integer e = 2^3;
+print e;
+Area c = a^2;
+print c;
+
+// Integer c = "Sred"^2;

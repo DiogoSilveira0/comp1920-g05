@@ -1,0 +1,141 @@
+
+import: verificamos se os ficheiros são sematicamente corretos através do visitors da 1º gramatica x
+- erro sematico caso análise semantica do ficheiro falhe
+
+declaração e atribuição de valores a variáveis: x
+- Não é permitida e declaração de variávies já declaradas.
+- Não é permitida e declaração de grandezas não declaradas.
+- Não é permitida e declaração de grandezas com unidades não declaradas.
+- Não é permitada a atribuição de variáveis ainda não atribuidas.
+- Não é permitada a atribuição de variáveis com grandezas diferentes.
+    Distance d3 = d1 - d1 deve ser do tipo Distance.
+
+print:
+- Não é permitido o print de variáveis não declaradas.
+- A unidade do resultado tem de estar declaradas.
+
+input:
+- A unidade do resultado tem de estar declaradas.
+
+boolean:
+    iguadade e relacionais: retornam boolean usam numéricos
+        - Não é permitida a comparação de grandezas diferentes. x
+        - Não é permitada a utilização de variáveis não declaradas.
+        - Só é permitida entre valores numéricos ou grandezas.x
+
+        ex:
+        5 == 3
+        d != t
+        - se grandezas iguais e valor igual - true
+        5 > 3, 2 < 3, 4 >= 5, 5 <= 1
+
+
+negação, interseção e reunião
+    - Só é permitida entre expressões booleanas.
+    !(true)
+    1 < 2 && 2 <= 3
+    !(false) || true
+
+
+instruções condicionais
+if (<exp>) {
+    <statement>
+}
+elif (<expr>) {
+    <statement>
+}
+else{
+    <statement>
+}
+- Statements devem ser expressões booleanas
+
+instruções interativas
+    for's
+        for i in range(i,f) {
+            <statement>
+        }
+
+        for i in range(i,f) incr(in) {
+            <statement>
+        }
+       
+        - i, f e in devem ser expressões com resultado numérico.
+        
+        ex:
+            for i in range(0,7) {
+                <statement>
+            }
+
+            for i in range((3+2),d) incr(2) {
+                <statement>
+            }
+
+    while's
+        while <expr> {
+            <statement>
+        }
+        - expr deve ser uma expressão booleana
+        
+        ex:
+            int i = 2;
+            while i < 10 {
+                <statement>
+            }
+
+            Distance a = 4;
+            Distance b = 6;
+            while a < b {
+                <statement>
+            }
+
+operações soma e subtração
+- Não são permitidas operações entre grandezas diferentes.
+- Não é permitida a utilização de variáveis não declaradas.
+- Expressão tem de ser numérica
+ex:
+Distance d = 5 m;
+Distance t = 3 cm;
+Distance r;
+r = d+t;
+
+
+operações div e mult
+- Expressão tem de ser numérica
+- Não é permitida a utilização de variáveis não declaradas.
+- Não são permitidas operações entre duas grandezas não adimensionais que não estejam definidas.
+
+- São permitadas operações de divisão entre grandezas do mesmo tipo.
+- Não são permitadas operações de divisão entre um tipo primitivo e uma grandeza, na ordem indicada.
+- Não são permitidas divisões por 0.
+
+    divisão
+        Ex1
+        Weight m = 50 kg; 
+        Weight x;
+        Weight y = 2 kg;
+        int a = 2;
+        x = m/a; (ok)
+        x = a/m; (erro semantico)
+        x = 2/m; (erro sintatico)
+        x = m/y; (erro de atribuição - acima) 
+
+        ex2
+        Weight m = 50 kg;
+        Weight y = 2 kg;
+        int x;
+        x = m/y; (ok)
+
+        - 2 grandezas diferentes (tem de estar definido)
+        - 1 grandeza e um tipo primitivos - resultado do tipo da grandeza
+        - 2 grandezas iguais - resultado adimensional
+        - primitivo e uma grandeza - ERRO semantico
+
+
+    multiplicação:
+
+
+operadores unários: +, -
+- Só podem ser aplicados a valores númericos.
+
+potencia:
+- Só são permitidos expoentes adimensionais.

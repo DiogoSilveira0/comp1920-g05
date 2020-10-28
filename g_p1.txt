@@ -1,0 +1,15 @@
+import "d_p1";
+
+print "Este programa irá calcular a distância percorrida em x tempo numa velocidade constante de y";
+
+//Distance d;
+//Time x = input "Insira o valor de x" h;
+//Speed y = input "Insira o valor de y" km/h;
+
+//d = x * y;
+Distance d = 5 km;
+Time x = 2 h;
+
+Speed y = d / x;
+
+print d;

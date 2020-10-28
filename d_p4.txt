@@ -1,0 +1,7 @@
+Altura = float m;
+add cm to Altura: (0.001*m);
+
+Peso = float kg;
+
+IMC = (Peso/Altura)^2;
+

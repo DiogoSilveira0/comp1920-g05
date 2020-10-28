@@ -1,0 +1,11 @@
+Distance = float m;
+add km to Distance: m * 1000;
+add cm to Distance: m / 100;
+
+Time = int s;
+add min to Time: s * 60;
+add h to Time: min * 60;
+
+Speed = Distance / Time;
+
+Mass = float kg;

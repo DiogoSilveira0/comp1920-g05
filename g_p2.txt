@@ -1,0 +1,23 @@
+import "d_p4";
+
+print "Este programa irá calcular o imc e verifica se este se encontra dentro dos valores esperas";
+
+// Altura a = input "Insira a sua altura:" m;
+// Peso p = input "Insira o seu peso:" kg;
+Altura a = 1.65m;
+Peso p = 68kg;
+
+IMC v = (p/a)^2;
+
+if ( v < 18.5 ) {
+    print("A abaixo do peso");
+}
+elif ( v >= 18.5 || v < 24.9 ) {
+    print("Saudável");
+}
+elif ( v >= 24.9 || v < 30) {
+    print("Excesso de peso");
+}
+else {
+    print("Obeso");
+};

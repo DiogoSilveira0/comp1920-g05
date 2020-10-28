@@ -1,0 +1,5 @@
+import "/home/carinaneves/Desktop/d_p1";
+
+Distance a = 2km;
+Integer ree = input "eeee" integer;
+Distance x = input "Insira o valor de x" m;

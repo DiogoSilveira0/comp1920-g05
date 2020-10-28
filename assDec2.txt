@@ -1,0 +1,9 @@
+import "d_p3";
+
+Distance a = 5 m;
+Area b = a^2;
+
+Ovelha o = 3 o;
+
+Ovelha_area aaa = o / b;
+

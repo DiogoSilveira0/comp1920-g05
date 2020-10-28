@@ -1,0 +1,9 @@
+import "/home/carinaneves/Desktop/d_p1";
+
+Distance a = 7 m;
+Distance b = 5 m;
+Time s = 3h;
+
+// Boolean c = a == s;
+
+Boolean e = 3 == 2;

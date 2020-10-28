@@ -1,0 +1,6 @@
+Distance = float km;
+add m to Distance: km/1000;
+add cm to Distance: km/10;
+
+Temperatura = float C;
+add F to Temperatura: 1.8*C+32;

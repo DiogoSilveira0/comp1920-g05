@@ -1,0 +1,26 @@
+import "d_p1";
+
+Distance aa = 10km;
+Distance a;
+a = 5 m;
+
+String b = "a";
+String bb;
+bb = "cucu";
+
+Boolean c = true;
+Boolean cc;
+cc = false;
+
+Integer d = 17;
+Integer dd;
+dd = 1;
+
+Float e = 2.3;
+Float ee;
+ee = 2.9;
+
+Speed g = 12 km/h;
+Speed gg;
+gg = 6 km/h;
+

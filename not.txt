@@ -1,0 +1,9 @@
+import "/home/carinaneves/Desktop/d_p1";
+
+Distance a;
+Distance c = 5 m;
+a = !c;
+
+Boolean d = True;
+
+Boolean x = !d;

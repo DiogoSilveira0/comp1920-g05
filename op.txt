@@ -1,0 +1,8 @@
+import "d_p1";
+
+Distance b = 5m;
+Distance c = 10km;
+
+Distance aaa = b+c;
+Boolean d = b + True;
+Integer a = 5;

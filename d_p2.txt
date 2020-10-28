@@ -1,0 +1,12 @@
+Massa = float kg;
+add g to Massa: 0.001*kg;
+
+ // unidades devem ser id e nao expr
+Distance = float m;
+
+Time = float s;
+
+Acelaracao = Distance/Time^2;
+
+Forca = Massa*Acelaracao N;
+// N fica defindo com as unidades base das grandezas kg*(m/s^2)

@@ -1,0 +1,18 @@
+import "d_p1";
+
+String b = "a";
+
+Distance a;
+a = 5 m;
+//String b;
+//Boolean c;
+//Integer d;
+//Float e;
+//Time f;
+//Speed g;
+//print "ola";
+
+//Boolean b1 = True;
+//Boolean b2 = False;
+
+//Boolean b3 = b1 && b2;

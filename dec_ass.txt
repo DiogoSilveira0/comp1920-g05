@@ -1,0 +1,29 @@
+import "/home/carinaneves/Desktop/d_p1";
+
+Distance a;
+// Time s;
+
+Distance b = 5 m;
+
+b = 5 cm;
+Time s = 4 h;
+
+// erro - Não é permitida e declaração de grandezas com unidades não declaradas.
+// Distance c = 10 mm;
+
+// erro - Não é permitida e declaração de variávies já declaradas. x
+// Time a;
+// erro - Não é permitida e declaração de grandezas não declaradas. x
+// Rai c;
+
+// a = 5 km;
+// a = b;
+
+// erro - Não é permitada a atribuição a variáveis não declaradas. x
+// m = 4 m;
+
+// erro - Não é permitada a atribuição de variáveis com grandezas diferentes.
+// a = 5;
+
+// erro - Não é permitada a atribuição de variáveis ainda não atribuidas
+//a = s;

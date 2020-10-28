@@ -1,0 +1,15 @@
+Erros Semânticos:
+
+- Não são permitidas declarações de grandezas já anteriormente declaradas.
+
+- Não são permitidas declarações de grandezas em função de outras ainda não declaradas.
+
+- Não são permitidas unidades repetidas.
+
+- Só são permitidas relações em função da unidade base da grandezas.
+
+- Só são permitidas relações no formato ax+b.
+
+- Expoente das potências deve ser um número inteiro.
+
+- Só são permitidas potências na declarações de grandezas compostas.

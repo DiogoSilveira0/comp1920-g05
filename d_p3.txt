@@ -1,0 +1,12 @@
+Ovelha = int o;
+add rebanho to Ovelha: o*50; 
+
+Distance = float m;
+add cm to Distance: m*0.01;
+//add cm to Distance: 0.01*m;
+
+Area = Distance^2 m2;
+add cm2 to Area: m2*0.001;
+//add cm2 to Area: 0.001*m2;
+
+Ovelha_area = Ovelha/Area;

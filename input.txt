@@ -1,0 +1,3 @@
+import "/home/carinaneves/Desktop/d_p1";
+
+Distance x = input "Insira o valor de x";

@@ -1,0 +1,7 @@
+import "d_p1";
+
+Distance d1 = 5m;
+Distance d2 = 30cm;
+
+Distance d3 = d1 + d2;
+

@@ -1,0 +1,8 @@
+import "d_p1";
+
+if ( 1 < 4 && 9 > 4 ) {
+    print "ola";
+} 
+else {
+    print "adeus";
+} ;

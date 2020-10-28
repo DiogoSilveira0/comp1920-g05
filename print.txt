@@ -1,0 +1,5 @@
+import "/home/carinaneves/Desktop/d_p1";
+
+Distance a = 5 km;
+
+print 5+5 dm;
